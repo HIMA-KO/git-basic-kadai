@@ -1,1 +1,14 @@
-kadai_004
+PS C:\Users\MISAE\Desktop\lesson> cd C:\Users\MISAE\Desktop\git_challenge
+PS C:\Users\MISAE\Desktop\git_challenge> git init
+PS C:\Users\MISAE\Desktop\git_challenge> git commit -m "hello_world.txtを追加"
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\MISAE\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\MISAE\Desktop\git_challenge> git commit -m "日本語
+訳を追記"
+[main e3c68d9] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\MISAE\Desktop\git_challenge> git log --oneline    
+e3c68d9 (HEAD -> main) 日本語訳を追記
+d9164a9 hello_world.txtを追加
+PS C:\Users\MISAE\Desktop\git_challenge> 
